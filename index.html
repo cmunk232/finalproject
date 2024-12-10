@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Perspectives</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        section {
+            min-height: 100vh; /* Ensure each section takes the full screen height */
+            padding: 80px 20px 20px; /* Add top padding to avoid navbar overlap */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        #video-section {
+            background-color: #f0f0f0;
+        }
+
+        #image-section1 {
+            background-color: #e0f7fa;
+        }
+
+        #image-section2 {
+            background-color: #fbe9e7;
+        }
+
+        #image-section3 {
+            background-color: #e8f5e9;
+        }
+
+        #image-section4 {
+            background-color: #ede7f6;
+        }
+
+        nav {
+            margin: 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 10;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="#video-section">Introduction</a>
+        <a href="#image-section1">Scene 1</a>
+        <a href="#image-section2">Scene 2</a>
+        <a href="#image-section3">Scene 3</a>
+        <a href="#image-section4">Scene 4</a>
+        <a href="#image-section5">Sources</a>
+    </nav>
+
+    <!-- Section 1: Video -->
+    <section id="video-section">
+        
+        <video src="my-jaw-dropping-video.mp4" poster="my-jaw-dropping-video-img.jpg" controls></video>
+    </section>
+
+    <!-- Section 2: Image Map 1 -->
+    <section id="image-section1">
+        <h2>Scene 1</h2>
+        <div>
+            <img src="hero.jpg" usemap="#image-map1">
+            <map name="image-map1">
+                <area alt="Bubble1" 
+                title="Bubble" 
+                a href="Picture2.png" 
+                coords="418,504,110" 
+                shape="circle">
+                <area alt="Bubble2" 
+                title="Bubble2" 
+                a href="Picture3.png" 
+                coords="1112,475,108" 
+                shape="circle">
+            </map>
+        </div>
+    </section>
+
+    <!-- Section 3: Image Map 2 -->
+    <section id="image-section2">
+        <h2>Scene 2</h2>
+        <div>
+            <img src="image.jpg" usemap="#image-map2">
+            <map name="image-map2">
+                <area alt="Bubble1" 
+                title="Bubble1" 
+                a href="Picture4.png" 
+                coords="426,484,112" 
+                shape="circle">
+                <area alt="Bubble2" 
+                title="Bubble2" 
+                a href="Picture5.png" 
+                coords="1123,468,116" 
+                shape="circle">
+            </map>
+        </div>
+    </section>
+
+    <!-- Section 4: Image Map 3 -->
+    <section id="image-section3">
+        <h2>Scene 3</h2>
+        <div>
+            <img src="cara.jpg" usemap="#image-map3">
+            <map name="image-map3">
+                <area alt="Bubble1" 
+                title="Bubble1" 
+                a href="Picture6.png" 
+                coords="422,512,115" 
+                shape="circle">
+                <area alt="Bubble2" 
+                title="Bubble2" 
+                a href="Picture7.png" 
+                coords="1132,506,118" 
+                shape="circle">
+            </map>
+        </div>
+    </section>
+
+    <!-- Section 5: Image Map 4 -->
+    <section id="image-section4">
+        <h2>Scene 4</h2>
+        <div>
+            <img src="cara2.jpg" usemap="#image-map4">
+            <map name="image-map4">
+                <area alt="Bubble1" 
+                title="Bubble1" 
+                a href="Picture9.png" 
+                coords="298,518,143" 
+                shape="circle">
+                <area alt="Bubble2" 
+                title="Bubble2" 
+                a href="Picture8.png" 
+                coords="1241,502,145" 
+                shape="circle">
+            </map>
+        </div>
+    </section>
+
+    <!-- Section 6: Sources -->
+     <section id="image-section5">
+        <h2>Sources</h2>
+        <div>
+            <img src="Picture10.png">
+        </div>
+     </section>
+</body>
+
+</html>
+
